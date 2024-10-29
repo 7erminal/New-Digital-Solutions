@@ -63,7 +63,7 @@ a {
     .site-navbar .site-logo a {
       text-transform: uppercase;
       /* color: #fff; */
-      color: black;
+      color: rgb(255, 255, 255);
       font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
     @media (max-width: 991.98px) {
       .site-navbar .site-logo {
@@ -88,7 +88,7 @@ a {
         padding: 20px 0px;
         font-size: 15px;
         /* color: rgba(255, 255, 255, 0.7) !important; */
-        color: rgba(76, 97, 255, 0.7) !important;
+        color: rgba(255, 255, 255, 0.7) !important;
         display: inline-block;
         text-decoration: none !important;
         position: relative; }
@@ -107,13 +107,13 @@ a {
           transition: .3s transform ease;
           background: #158aff; } /* Change this to change the highlighter */
         .site-navbar .site-navigation .site-menu > li > a:hover {
-          color: #5261ff !important; }
+          color: #9dceff !important; }
           .site-navbar .site-navigation .site-menu > li > a:hover:before {
             -webkit-transform: scale(1);
             -ms-transform: scale(1);
             transform: scale(1); }
       .site-navbar .site-navigation .site-menu > li.active > a {
-        color: #5261ff !important; }
+        color: #1dfbd6 !important; }
         .site-navbar .site-navigation .site-menu > li.active > a:before {
           -webkit-transform: scale(1);
           -ms-transform: scale(1);
