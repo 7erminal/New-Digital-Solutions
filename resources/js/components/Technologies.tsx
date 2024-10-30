@@ -4,7 +4,7 @@ import { Col, Container, Row, Tab, Tabs } from "react-bootstrap";
 
 const Technologies: React.FC = ()=>{
     return <section className="technologies">
-        <Container fluid>
+        <Container>
             <Row className="mb-4">
                 <Col>
                     <div className="technologies-heading-box">

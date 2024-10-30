@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 const Solutions: React.FC = ()=>{
     return <section className="solutions-section">
-        <Container fluid>
+        <Container>
             <Row className="mb-4">
                 <Col>
                     <div className="solutions-heading-box">

@@ -275,6 +275,78 @@ body{
     padding-bottom: 80px;
 }
 
+.carousel-inner{
+    width: 100%;
+    height: 100%;
+}
+
+.custom-carousel-image-div{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.custom-carousel-image{
+    animation: slow-zoom 40s forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.carousel-caption{
+    position: relative;
+    top: 45%;
+    text-align: center;
+    /* transform: translate(50%); */
+    white-space: nowrap;
+}
+
+.caption-carousel{
+    overflow: hidden;
+    width: 24em;
+    transform: translateY(-50%); 
+    text-align: center;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+/* The typing effect */
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 24em;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }
+
+.custom-company-carousel-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-company-header-section{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.about-company-carousel{
+    width: 100%;
+    height: 400px;
+}
+
+@keyframes slow-zoom {
+    0% {
+        transform:scale(1);
+      }
+    100% {
+      transform:scale(2);
+    }
+  }
+
 @media (min-width: 481px) and (max-width: 899px) {
     .what-we-offer-box p{
         padding-top: 120px;
