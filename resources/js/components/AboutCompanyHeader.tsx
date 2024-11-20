@@ -6,7 +6,7 @@ const AboutCompanyHeader: React.FC = ()=>{
         <Container>
             <Row>
                 <Col xs={12} md={5} style={{display: 'flex', justifyContent: 'center', flexDirection: 'column'}}>
-                <h1>About ScienceSoft –
+                <h1>About New Digital Solutions –
                 Your Partner for Project Success</h1>
                     <p>Founded in 1989, ScienceSoft is a US-based provider of IT consulting and software development services. Clients respect us for unfailing budget and time control, cooperation transparency, and consistently high service quality.</p>
                 </Col>

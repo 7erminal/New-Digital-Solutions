@@ -1,5 +1,5 @@
 import React from 'react'
-import { createRoot } from 'react-dom/client'
+import { createRoot } from 'react-dom/client';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingScreen from '../components/LandingScreen';
@@ -8,7 +8,6 @@ import WhatWeOfferSection from '../components/WhatWeOfferSection';
 import Solutions from '../components/Solutions';
 import Technologies from '../components/Technologies';
 import Projects from '../components/Projects';
-import Footer from '../components/Footer';
 
 const Index: React.FC = ()=>{
     return <>

@@ -54,10 +54,10 @@
 
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu site-menu-dark main-menu js-clone-nav ml-auto ">
-                  <li class="active"><a href="#" class="nav-link">Home</a></li>
+                  <li class="active"><a href="/" class="nav-link">Home</a></li>
                   <li><a href="#" class="nav-link">Portfolio</a></li>
                   <li><a href="/company" class="nav-link">About</a></li>
-                  <li><a href="#" class="nav-link">Services</a></li>
+                  <li><a href="/services" class="nav-link">Services</a></li>
                   <li><a href="#" class="nav-link">Blog</a></li>
                   <li><a href="#" class="nav-link">Contact</a></li>
                 </ul>
@@ -72,40 +72,7 @@
 
     @yield('content')
 
-    <section class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="vstack gap-3">
-                        <div className="p-2">First item</div>
-                        <div className="p-2">Second item</div>
-                        <div className="p-2">Third item</div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="vstack gap-3">
-                        <div className="p-2">First item</div>
-                        <div className="p-2">Second item</div>
-                        <div className="p-2">Third item</div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="vstack gap-3">
-                        <div className="p-2">First item</div>
-                        <div className="p-2">Second item</div>
-                        <div className="p-2">Third item</div>
-                    </Stack>
-                </div>
-                <div class="col">
-                    <div class="vstack gap-3">
-                        <div className="p-2">First item</div>
-                        <div className="p-2">Second item</div>
-                        <div className="p-2">Third item</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('footer')
        
     <script src="/assets/nav/js/jquery-3.3.1.min.js"></script>
     <script src="/assets/nav/js/popper.min.js"></script>

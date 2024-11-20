@@ -17,9 +17,21 @@
     <!-- Style -->
     <link rel="stylesheet" href="/assets/nav/css/style.css">
 
-    <title>Website Menu #2</title>
+    <title>New Digital Solutions</title>
     @viteReactRefresh
     @vite('resources/js/app.jsx')
+
+    <!-- <script src='https://paywithkorba.s3.eu-west-1.amazonaws.com/test-checkout.js'></script>
+
+        <script type="text/javascript">
+                XCheckout.configure({
+                    merchantID: '122c4d6e-e6af-4670-9796-667f85bf1f1c',
+                    orderID: '3RR122c4d6e-e6af-4670-9796-667f85bf1f1c',
+                    description: 'Ordered goods',
+                    amount: 1.2,
+                    redirectURL: 'http://www.yourawesomeapp.com',
+                });
+        </script>   -->
   </head>
   <body>
 
@@ -51,15 +63,15 @@
 
               <span class="d-inline-block d-lg-none"><a href="#" class="text-primary site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-white"></span></a></span>
 
-
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li class="active"><a href="#" class="nav-link">Home</a></li>
+                  <li class="active"><a href="/" class="nav-link">Home</a></li>
                   <li><a href="#" class="nav-link">Portfolio</a></li>
                   <li><a href="/company" class="nav-link">About</a></li>
-                  <li><a href="#" class="nav-link">Services</a></li>
+                  <li><a href="/services" class="nav-link">Services</a></li>
                   <li><a href="#" class="nav-link">Blog</a></li>
                   <li><a href="#" class="nav-link">Contact</a></li>
+                  <!-- <li><input type="button" value="Pay" onclick="XCheckout.pay();" /><li> -->
                 </ul>
               </nav>
             </div>
@@ -72,40 +84,7 @@
 
     @yield('content')
 
-    <section class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <div class="vstack gap-3">
-                        <div className="p-2">First item</div>
-                        <div className="p-2">Second item</div>
-                        <div className="p-2">Third item</div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="vstack gap-3">
-                        <div className="p-2">First item</div>
-                        <div className="p-2">Second item</div>
-                        <div className="p-2">Third item</div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="vstack gap-3">
-                        <div className="p-2">First item</div>
-                        <div className="p-2">Second item</div>
-                        <div className="p-2">Third item</div>
-                    </Stack>
-                </div>
-                <div class="col">
-                    <div class="vstack gap-3">
-                        <div className="p-2">First item</div>
-                        <div className="p-2">Second item</div>
-                        <div className="p-2">Third item</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    @include('footer')
        
     <script src="/assets/nav/js/jquery-3.3.1.min.js"></script>
     <script src="/assets/nav/js/popper.min.js"></script>
