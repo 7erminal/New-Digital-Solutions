@@ -25,18 +25,16 @@ Route::get('/view-service/{number}', function (string $number) {
     } else if($number=='2'){
         $data['service'] = "E-Commerce";
     } else if($number=='3'){
-        $data['service'] = "E-Commerce";
-    } else if($number=='4'){
         $data['service'] = "Data Analytics";
-    } else if($number=='5'){
+    } else if($number=='4'){
         $data['service'] = "CRM";
-    } else if($number=='6'){
+    } else if($number=='5'){
         $data['service'] = "Fleet Management";
-    } else if($number=='7'){
+    } else if($number=='6'){
         $data['service'] = "Financial Management";
-    } else if($number=='8'){
+    } else if($number=='7'){
         $data['service'] = "Asset Management";
-    } else if($number=='9'){
+    } else if($number=='8'){
         $data['service'] = "Marketing & Advertisement";
     }
 
